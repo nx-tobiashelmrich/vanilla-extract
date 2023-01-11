@@ -1,11 +1,13 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
 import { Headline } from "../src/components/Atoms/headline";
-import { grid, gridElement } from "../styles/theme.css.ts";
 import { headlineVariant } from "../src/components/Atoms/headline.css";
 import { Button } from "../src/components/Atoms/button";
 import { buttonStyle } from "../src/components/Atoms/button.css";
 import { Link } from "../src/components/Atoms/link";
+/* @ts-ignore */
+import { grid, gridElement } from "../styles/theme.css.ts";
+/* @ts-ignore */
 import { linkStyle } from "../src/components/Atoms/link.css.ts";
 
 const inter = Inter({ subsets: ["latin"] });

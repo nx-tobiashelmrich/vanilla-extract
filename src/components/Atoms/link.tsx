@@ -1,4 +1,4 @@
-import { MouseEventHandler } from "react";
+/* @ts-ignore */
 import { linkStyle } from "./link.css.ts";
 interface LinksProps {
   children: any;

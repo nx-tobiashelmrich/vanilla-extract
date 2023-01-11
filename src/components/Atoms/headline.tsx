@@ -1,3 +1,4 @@
+/* @ts-ignore */
 import { headlineText } from "./headline.css.ts";
 
 interface Tags {
